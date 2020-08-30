@@ -1,6 +1,6 @@
 package com.codecool.utilities;
 
-public enum Languages {
+public enum Language {
     ENGLISH,
     GERMAN,
     SPANISH,
