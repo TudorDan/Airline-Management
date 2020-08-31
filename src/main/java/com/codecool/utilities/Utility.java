@@ -2,7 +2,7 @@ package com.codecool.utilities;
 
 import java.util.Random;
 
-public class utility {
+public class Utility {
     /**
      * Generates a random number
      * @param min inclusive
