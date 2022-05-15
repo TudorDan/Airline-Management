@@ -23,8 +23,7 @@ public class FlightAttendant extends Employee {
 
     @Override
     public void showEmployeeData() {
-        super.showEmployeeData();
         System.out.println("Employee " + getEmployeeType() + " " + getName() + " phone: " + getPhoneNumber() + " " +
-                "birthdate: " + getBirthDate() + " salary: " + getSalary() + " $. Known languages: " + languageList.toString());
+                "birthdate: " + getBirthDate() + " salary: " + getSalary() + " $. Known languages: " + languageList);
     }
 }

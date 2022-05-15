@@ -31,7 +31,6 @@ public class Pilot extends Employee {
 
     @Override
     public void showEmployeeData() {
-        super.showEmployeeData();
         System.out.println("Employee " + getEmployeeType() + " " + getName() + " phone: " + getPhoneNumber() + " " +
                 "birthdate: " + getBirthDate() + " salary: " + getSalary() + " $. Current flight status " + currentFlightPosition);
     }
