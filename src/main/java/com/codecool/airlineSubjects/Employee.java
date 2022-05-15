@@ -28,7 +28,7 @@ public abstract class Employee {
         return employeeType;
     }
 
-    public void showEmployeeData() {}
+    public abstract void showEmployeeData();
 
     public String getName() {
         return name;
